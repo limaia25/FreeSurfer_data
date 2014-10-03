@@ -4,7 +4,7 @@ You can extract out data from FreeSurfer preprocessing (see Wiki)
 ### To create the annotation of lobes 
 This script creates cortical parcelattion. See [here](https://surfer.nmr.mgh.harvard.edu/fswiki/CorticalParcellation).
 ```bash
-extractDataFreeSurfer.sh <fileSubjects>
+createLobesAnnotation.sh <subject1> <subject2> <subject3> ...
 ```
 
 ### To extract numeric data like volumes, greyVolumes, thickness and meanCurv
