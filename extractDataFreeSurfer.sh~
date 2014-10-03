@@ -62,29 +62,3 @@ aparcstats2table --subjectsfile $fileSujeitos --tablefile ./lobesThicknessLH.txt
 aparcstats2table --subjectsfile $fileSujeitos --tablefile ./lobesmeanCurvRH.txt -p lobes --hemi rh -m meancurv
 
 aparcstats2table --subjectsfile $fileSujeitos --tablefile ./lobesmeanCurvLH.txt -p lobes --hemi lh -m meancurv
-
-###to get BA(meanCurv)
-
-aparcstats2table --subjectsfile $fileSujeitos --tablefile ./BAThresholdRHMeanCurv.txt -p BA.thresh --hemi rh -m meancurv
-
-aparcstats2table --subjectsfile $fileSujeitos --tablefile ./BAThresholdLHMeancurv.txt -p BA.thresh --hemi lh -m meancurv
-
-###to get BA(Volume)
-
-aparcstats2table --subjectsfile $fileSujeitos --tablefile ./BAThresholdRHVolume.txt -p BA.thresh --hemi rh -m volume
-
-aparcstats2table --subjectsfile $fileSujeitos --tablefile ./BAThresholdLHVolume.txt -p BA.thresh --hemi lh -m volume
-
-###to get BA(Volume)
-
-aparcstats2table --subjectsfile $fileSujeitos --tablefile ./BAThresholdRHthickness.txt -p BA.thresh --hemi rh -m thickness
-
-aparcstats2table --subjectsfile $fileSujeitos --tablefile ./BAThresholdLHthickness.txt -p BA.thresh --hemi lh -m thickness
-
-###to get BA(Area)
-
-aparcstats2table --subjectsfile $fileSujeitos --tablefile ./BAThresholdRHarea.txt -p BA.thresh --hemi rh
-
-aparcstats2table --subjectsfile $fileSujeitos --tablefile ./BAThresholdLHarea.txt -p BA.thresh --hemi lh
-
-
